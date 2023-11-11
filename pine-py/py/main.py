@@ -10,7 +10,7 @@ closes = [math.sin(x) for x in xdata]
 class MyCallback:
 
     def print(self, _str):
-        print("The calculation Result is: " + _str)
+        print(f"The calculation Result is: {_str}")
     
     def plot(self, floats):
         print(type(floats[0]))
